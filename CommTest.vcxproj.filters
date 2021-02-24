@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CommRec.cpp" />
+    <ClCompile Include="CommSend.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="FtdiRec.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="Params.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Params.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="sw_FTDI_CDM_Drivers\ftd2xx.h">
+      <Filter>sw_FTDI_CDM_Drivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sw_FTDI_CDM_Drivers">
+      <UniqueIdentifier>{486b9f0b-268e-4654-9cdf-adb5e45339c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sw_FTDI_CDM_Drivers\amd64">
+      <UniqueIdentifier>{8467dcbf-058b-4c9f-b04d-5925047c3c4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sw_FTDI_CDM_Drivers\amd64\ftd2xx.lib">
+      <Filter>sw_FTDI_CDM_Drivers\amd64</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
