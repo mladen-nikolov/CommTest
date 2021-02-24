@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+d2xx_mask_1_receiver_232H.txt
+d2xx_mask_1_receiver_232R.txt
+d2xx_mask_7_receiver_232H.txt
+vcp_receiver_232H.txt
